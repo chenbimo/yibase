@@ -11,7 +11,7 @@
     },
     "scripts": {
         "lint": "eslint ./src",
-        "lint:fix": "eslint ./src --fix",
+        "fix": "eslint ./src --fix",
         "format": "prettier --write .",
         "inspect": "eslint --inspect-config",
         "dev": "yite --command=dev --envfile=development --workdir=./",
