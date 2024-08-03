@@ -20,6 +20,8 @@ out
 CHANGELOG.md
 note.md
 .changeset
+*.lock
+*lock.*
 
 # Editor directories and files
 .vscode/*
