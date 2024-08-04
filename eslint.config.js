@@ -10,11 +10,17 @@ export default [
             globals: {
                 ...globals.browser,
                 ...globals.node,
+                Pinia: 'readonly',
                 ref: 'readonly',
                 computed: 'readonly',
                 watch: 'readonly',
                 watchEffect: 'readonly',
-                useGlobal: 'readonly'
+                useGlobal: 'readonly',
+                createI18n: 'readonly',
+                createRouter: 'readonly',
+                createWebHashHistory: 'readonly',
+                $Storage: 'readonly',
+                $ref: 'readonly'
             }
         }
     },
