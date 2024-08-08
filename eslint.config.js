@@ -2,25 +2,15 @@ import globals from 'globals';
 import pluginJs from '@eslint/js';
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
 import eslintPluginVue from 'eslint-plugin-vue';
+import autoImportJson from './.cache/auto-imports.json';
 
 export default [
     {
-        files: ['**/*.{mjs,cjs,js}'],
         languageOptions: {
             globals: {
                 ...globals.browser,
                 ...globals.node,
-                Pinia: 'readonly',
-                ref: 'readonly',
-                computed: 'readonly',
-                watch: 'readonly',
-                watchEffect: 'readonly',
-                useGlobal: 'readonly',
-                createI18n: 'readonly',
-                createRouter: 'readonly',
-                createWebHashHistory: 'readonly',
-                $Storage: 'readonly',
-                $ref: 'readonly'
+                ...autoImportJson.globals
             }
         }
     },
