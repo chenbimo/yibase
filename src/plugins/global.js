@@ -1,4 +1,4 @@
-export const useGlobal = Pinia.defineStore('global', () => {
+export const useGlobal = defineStore('global', () => {
     // 全局数据
     const $GlobalData = $ref({
         // 用户令牌

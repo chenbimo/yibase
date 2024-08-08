@@ -1,7 +1,7 @@
 <template>
     <div class="page-index">
         这是页面的内容
-        <div>
+        <div @click="$Method.onJumpHome">
             <img :src="utilGetAssets('logo.png')" />
         </div>
         <div>{{ $t('name') }}</div>

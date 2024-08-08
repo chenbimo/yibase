@@ -1,14 +1,15 @@
 export const yiteConfig = {
     devtool: false,
-    // 自动导入解析
+    // 自动导入
     autoImport: {
-        resolvers: []
+        resolvers: [],
+        imports: []
     },
-    // 自动组件解析
+    // 自动组件
     autoComponent: {
         resolvers: []
     },
-    // webpack 配置
+    // vite自定义 配置
     viteConfig: {
         optimizeDeps: {
             include: [

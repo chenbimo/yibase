@@ -1,10 +1,11 @@
 {
     "name": "yibase",
-    "version": "1.6.0",
-    "description": "vue3 + vite + yite-cli 基础开发模板",
+    "version": "2.0.0",
+    "description": "vue3 + vite + yite-cli 基础项目开发模板",
     "sideEffects": true,
     "type": "module",
     "private": false,
+    "license": "Apache-2.0",
     "publishConfig": {
         "access": "public",
         "registry": "https://registry.npmjs.org"
@@ -30,14 +31,14 @@
     },
     "homepage": "https://chensuiyi.me",
     "dependencies": {
-        "@iconify/json": "^2.2.232",
-        "axios": "^1.7.2",
-        "pinia": "^2.2.0",
+        "@iconify/json": "^2.2.235",
+        "axios": "^1.7.3",
+        "pinia": "^2.2.1",
         "sass": "^1.77.8",
         "store2": "^2.14.3",
-        "vue": "^3.4.34",
+        "vue": "^3.4.37",
         "vue-i18n": "^9.13.1",
-        "vue-router": "^4.4.0"
+        "vue-router": "^4.4.3"
     },
     "devDependencies": {
         "@eslint/config-inspector": "^0.5.2",
@@ -47,10 +48,10 @@
         "eslint-plugin-prettier": "^5.2.1",
         "eslint-plugin-vue": "^9.27.0",
         "globals": "^15.9.0",
-        "lint-staged": "^15.2.7",
+        "lint-staged": "^15.2.8",
         "prettier": "^3.3.3",
         "simple-git-hooks": "^2.11.1",
-        "yite-cli": "^3.0.0"
+        "yite-cli": "^3.3.0"
     },
     "simple-git-hooks": {
         "pre-commit": "pnpm exec lint-staged"
