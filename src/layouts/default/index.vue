@@ -1,6 +1,6 @@
 <template>
     <div class="layout-default">
-        default
+        这是default layout框架的内容
         <div class="layout-bodyer">
             <router-view></router-view>
         </div>
