@@ -1,6 +1,6 @@
 {
     "name": "yibase",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "vue3 + vite + yite-cli 基础项目开发模板",
     "sideEffects": true,
     "type": "module",
@@ -18,6 +18,21 @@
         "dev": "yite --command=dev --envfile=development --workdir=./",
         "build": "yite --command=build --envfile=production --workdir=./"
     },
+    "files": [
+        ".vscode",
+        "public/",
+        "src/",
+        ".gitignore",
+        ".npmrc",
+        ".prettier",
+        "eslint.config.js",
+        "index.html",
+        "jsconfig.json",
+        "LICENSE",
+        "package.json",
+        "README.md",
+        "yite.config.js"
+    ],
     "keywords": [
         "lodash",
         "utils",

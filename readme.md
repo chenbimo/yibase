@@ -2,7 +2,11 @@
 
 基于 yite-cli驱动的 vite + vue3 项目基础开发模板
 
-## 自动导入
+### 文档教程
+
+请前往笔者网站 [https://chensuiyi.me](https://chensuiyi.me) 查看 `yite-cli` 的使用文档。
+
+### 自动导入
 
 <details>
 <summary>arco-design-vue</summary>
