@@ -64,7 +64,7 @@ export const yiteConfig = {
             include: [
                 //
                 'lodash-es',
-                'vue-i18n',
+                'petite-vue-i18n',
                 'axios',
                 '@arco-design/web-vue'
             ]
@@ -111,7 +111,7 @@ export const yiteConfig = {
             include: [
                 //
                 'lodash-es',
-                'vue-i18n',
+                'petite-vue-i18n',
                 'axios',
                 'element-plus',
                 'element-plus/es'

@@ -27,10 +27,15 @@ const $Data = $ref({
     lang: 'zh'
 });
 
+console.log('$I18n.global.locale');
+console.log($I18n.global.locale);
+
 // 方法集
 const $Method = {
     // 切换语言
     onChangeLang(value) {
+        console.log('🚀 ~ onChangeLang ~ $I18n:', $I18n);
+
         $I18n.global.locale = value;
     }
 };
