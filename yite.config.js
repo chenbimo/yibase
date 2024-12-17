@@ -10,6 +10,24 @@ export const yiteConfig = {
         resolvers: []
     },
     // vite自定义 配置
+    // fnMap(待办1)111
+    // fnMap(待办1)111
+    // fnMap(待办1)111
+    // fnMap(待办1)111
+    // fnMap(待办1)111
+    // fnMap(待办1)111
+    // fnMap(待办1)111
+    // fnMap(待办1)111
+    // fnMap(待办1)111
+    // fnMap(待办1)111
+    // fnMap(待办1)111
+    // fnMap(待办1)111
+    // fnMap(待办1)111
+    // fnMap(待办1)111
+    // fnMap(待办1)111
+    // fnMap(待办1)111
+    // fnMap(待办1)111
+    // fnMap(待办1)111
     viteConfig: {
         optimizeDeps: {
             include: [

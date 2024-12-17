@@ -1,5 +1,6 @@
+// #region 区域
 import App from '@/App.vue';
-
+// #endregion
 const $App = createApp(App);
 const $Pinia = createPinia();
 
