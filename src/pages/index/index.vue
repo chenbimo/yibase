@@ -4,7 +4,7 @@
         <div @click="$Method.onJumpHome">
             <img :src="utilGetAssets('logo.png')" />
         </div>
-        <div>{{ $t('name') }}</div>
+        <div class="text-red-5 mt-100px">{{ $t('name') }}</div>
         <div class="language">
             <div class="box" :class="{ active: $I18n.global.locale === 'zh' }" @click="$Method.onChangeLang('zh')">
                 <div class="radio"></div>

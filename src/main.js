@@ -1,4 +1,5 @@
 import App from '@/App.vue';
+import 'virtual:uno.css';
 const $App = createApp(App);
 const $Pinia = createPinia();
 

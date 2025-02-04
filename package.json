@@ -47,7 +47,7 @@
     "homepage": "https://chensuiyi.me",
     "dependencies": {
         "@iconify/json": "^2.2.302",
-        "yite-cli": "^4.1.0"
+        "yite-cli": "^4.2.1"
     },
     "devDependencies": {
         "lint-staged": "^15.4.3",

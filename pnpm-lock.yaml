@@ -12,8 +12,8 @@ importers:
         specifier: ^2.2.302
         version: 2.2.302
       yite-cli:
-        specifier: ^4.1.0
-        version: 4.1.0(@babel/parser@7.26.7)(@vue/compiler-sfc@3.5.13)(jiti@2.4.2)(postcss@8.5.1)(rollup@4.34.2)(tsx@4.19.2)(yaml@2.7.0)
+        specifier: ^4.2.1
+        version: 4.2.1(@babel/parser@7.26.7)(@vue/compiler-sfc@3.5.13)(jiti@2.4.2)(postcss@8.5.1)(rollup@4.34.2)(tsx@4.19.2)(yaml@2.7.0)
     devDependencies:
       lint-staged:
         specifier: ^15.4.3
@@ -721,6 +721,36 @@ packages:
     os: [linux]
     libc: [glibc]
 
+  '@rollup/rollup-linux-arm64-musl@4.34.2':
+    resolution: {integrity: sha512-UlFk+E46TZEoxD9ufLKDBzfSG7Ki03fo6hsNRRRHF+KuvNZ5vd1RRVQm8YZlGsjcJG8R252XFK0xNPay+4WV7w==}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+
+  '@rollup/rollup-linux-loongarch64-gnu@4.34.2':
+    resolution: {integrity: sha512-hJhfsD9ykx59jZuuoQgYT1GEcNNi3RCoEmbo5OGfG8RlHOiVS7iVNev9rhLKh7UBYq409f4uEw0cclTXx8nh8Q==}
+    cpu: [loong64]
+    os: [linux]
+    libc: [glibc]
+
+  '@rollup/rollup-linux-powerpc64le-gnu@4.34.2':
+    resolution: {integrity: sha512-g/O5IpgtrQqPegvqopvmdCF9vneLE7eqYfdPWW8yjPS8f63DNam3U4ARL1PNNB64XHZDHKpvO2Giftf43puB8Q==}
+    cpu: [ppc64]
+    os: [linux]
+    libc: [glibc]
+
+  '@rollup/rollup-linux-riscv64-gnu@4.34.2':
+    resolution: {integrity: sha512-bSQijDC96M6PuooOuXHpvXUYiIwsnDmqGU8+br2U7iPoykNi9JtMUpN7K6xml29e0evK0/g0D1qbAUzWZFHY5Q==}
+    cpu: [riscv64]
+    os: [linux]
+    libc: [glibc]
+
+  '@rollup/rollup-linux-s390x-gnu@4.34.2':
+    resolution: {integrity: sha512-49TtdeVAsdRuiUHXPrFVucaP4SivazetGUVH8CIxVsNsaPHV4PFkpLmH9LeqU/R4Nbgky9lzX5Xe1NrzLyraVA==}
+    cpu: [s390x]
+    os: [linux]
+    libc: [glibc]
+
   '@rollup/rollup-linux-x64-gnu@4.34.2':
     resolution: {integrity: sha512-j+jFdfOycLIQ7FWKka9Zd3qvsIyugg5LeZuHF6kFlXo6MSOc6R1w37YUVy8VpAKd81LMWGi5g9J25P09M0SSIw==}
     cpu: [x64]
@@ -732,6 +762,16 @@ packages:
     cpu: [x64]
     os: [linux]
     libc: [musl]
+
+  '@rollup/rollup-win32-arm64-msvc@4.34.2':
+    resolution: {integrity: sha512-LQRkCyUBnAo7r8dbEdtNU08EKLCJMgAk2oP5H3R7BnUlKLqgR3dUjrLBVirmc1RK6U6qhtDw29Dimeer8d5hzQ==}
+    cpu: [arm64]
+    os: [win32]
+
+  '@rollup/rollup-win32-ia32-msvc@4.34.2':
+    resolution: {integrity: sha512-wt8OhpQUi6JuPFkm1wbVi1BByeag87LDFzeKSXzIdGcX4bMLqORTtKxLoCbV57BHYNSUSOKlSL4BYYUghainYA==}
+    cpu: [ia32]
+    os: [win32]
 
   '@rollup/rollup-win32-x64-msvc@4.34.2':
     resolution: {integrity: sha512-rUrqINax0TvrPBXrFKg0YbQx18NpPN3NNrgmaao9xRNbTwek7lOXObhx8tQy8gelmQ/gLaGy1WptpU2eKJZImg==}
@@ -2333,8 +2373,8 @@ packages:
     resolution: {integrity: sha512-7dSzzRQ++CKnNI/krKnYRV7JKKPUXMEh61soaHKg9mrWEhzFWhFnxPxGl+69cD1Ou63C13NUPCnmIcrvqCuM6w==}
     engines: {node: '>=12'}
 
-  yite-cli@4.1.0:
-    resolution: {integrity: sha512-cnD2j5Ofi2E5n4t8iPYvSdXLBiuV+T3R9QY6Pgq1AdOUKxfGwm+XbJNA9DogvE6p2A8apQhD59LEED6mvtfQ9A==}
+  yite-cli@4.2.1:
+    resolution: {integrity: sha512-njlcKzew7erT4YY3L8T9NAVOTttnXUoI+NfNFG5SCXTTka+ocIhDEvLJjCJGvRnvqQQX36wwYAQ+PVijVm/AYQ==}
     hasBin: true
 
   yoctocolors@2.1.1:
@@ -2938,10 +2978,31 @@ snapshots:
   '@rollup/rollup-linux-arm64-gnu@4.34.2':
     optional: true
 
+  '@rollup/rollup-linux-arm64-musl@4.34.2':
+    optional: true
+
+  '@rollup/rollup-linux-loongarch64-gnu@4.34.2':
+    optional: true
+
+  '@rollup/rollup-linux-powerpc64le-gnu@4.34.2':
+    optional: true
+
+  '@rollup/rollup-linux-riscv64-gnu@4.34.2':
+    optional: true
+
+  '@rollup/rollup-linux-s390x-gnu@4.34.2':
+    optional: true
+
   '@rollup/rollup-linux-x64-gnu@4.34.2':
     optional: true
 
   '@rollup/rollup-linux-x64-musl@4.34.2':
+    optional: true
+
+  '@rollup/rollup-win32-arm64-msvc@4.34.2':
+    optional: true
+
+  '@rollup/rollup-win32-ia32-msvc@4.34.2':
     optional: true
 
   '@rollup/rollup-win32-x64-msvc@4.34.2':
@@ -4236,8 +4297,15 @@ snapshots:
       '@rollup/rollup-linux-arm-gnueabihf': 4.34.2
       '@rollup/rollup-linux-arm-musleabihf': 4.34.2
       '@rollup/rollup-linux-arm64-gnu': 4.34.2
+      '@rollup/rollup-linux-arm64-musl': 4.34.2
+      '@rollup/rollup-linux-loongarch64-gnu': 4.34.2
+      '@rollup/rollup-linux-powerpc64le-gnu': 4.34.2
+      '@rollup/rollup-linux-riscv64-gnu': 4.34.2
+      '@rollup/rollup-linux-s390x-gnu': 4.34.2
       '@rollup/rollup-linux-x64-gnu': 4.34.2
       '@rollup/rollup-linux-x64-musl': 4.34.2
+      '@rollup/rollup-win32-arm64-msvc': 4.34.2
+      '@rollup/rollup-win32-ia32-msvc': 4.34.2
       '@rollup/rollup-win32-x64-msvc': 4.34.2
       fsevents: 2.3.3
 
@@ -4718,7 +4786,7 @@ snapshots:
       y18n: 5.0.8
       yargs-parser: 21.1.1
 
-  yite-cli@4.1.0(@babel/parser@7.26.7)(@vue/compiler-sfc@3.5.13)(jiti@2.4.2)(postcss@8.5.1)(rollup@4.34.2)(tsx@4.19.2)(yaml@2.7.0):
+  yite-cli@4.2.1(@babel/parser@7.26.7)(@vue/compiler-sfc@3.5.13)(jiti@2.4.2)(postcss@8.5.1)(rollup@4.34.2)(tsx@4.19.2)(yaml@2.7.0):
     dependencies:
       '@unocss/transformer-compile-class': 65.4.3
       '@unocss/transformer-directives': 65.4.3
