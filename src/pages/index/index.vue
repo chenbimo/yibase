@@ -18,10 +18,6 @@
     </div>
 </template>
 <script setup>
-defineOptions({
-    name: 'IndexIndex'
-});
-
 // 数据集
 const $Data = $ref({
     lang: 'zh'

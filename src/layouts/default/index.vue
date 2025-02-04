@@ -10,11 +10,6 @@
 <script setup>
 // 外部集
 
-// 定义集
-defineOptions({
-    name: 'LayoutDefault'
-});
-
 // 全局集
 const { $GlobalData, $GlobalComputed, $GlobalMethod } = useGlobal();
 const $Router = useRouter();
