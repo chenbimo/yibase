@@ -1,6 +1,6 @@
 {
     "name": "yibase",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "description": "vue3 + yite-cli 基础项目开发模板",
     "sideEffects": true,
     "chensuyidd": 25,
