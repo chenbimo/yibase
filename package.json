@@ -47,14 +47,7 @@
     "homepage": "https://chensuiyi.me",
     "dependencies": {
         "@iconify/json": "^2.2.302",
-        "axios": "^1.7.9",
-        "pinia": "^2.3.1",
-        "sass": "^1.83.4",
-        "store2": "^2.14.4",
-        "vue": "^3.5.13",
-        "vue-i18n": "^11.1.0",
-        "vue-router": "^4.5.0",
-        "yite-cli": "^3.11.2"
+        "yite-cli": "^4.0.1"
     },
     "devDependencies": {
         "lint-staged": "^15.4.3",

@@ -1,6 +1,6 @@
 export const yiteConfig = {
-    devtool: true,
-    inspect: true,
+    devtool: false,
+    inspect: false,
     // 自动导入
     autoImport: {
         resolvers: [],
@@ -15,14 +15,9 @@ export const yiteConfig = {
             include: [
                 //
                 'vue-i18n',
-                'axios',
-                'store2'
+                'pinia',
+                'vue-router'
             ]
         }
     }
 };
-
-//#region 外层
-//#region 内层
-//#endregion
-//#endregion

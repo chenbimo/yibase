@@ -5,4 +5,8 @@
 </template>
 <script setup></script>
 
-<style lang="scss"></style>
+<style lang="scss">
+body {
+    font-size: 16px;
+}
+</style>

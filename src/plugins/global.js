@@ -2,9 +2,9 @@ export const useGlobal = defineStore('global', () => {
     // 全局数据
     const $GlobalData = $ref({
         // 用户令牌
-        token: $Storage.local.get('token') || '',
+        token: utilLocalGetItem('token') || '',
         // 用户数据
-        userData: $Storage.local.get('userData') || {}
+        userData: utilLocalGetItem('userData') || {}
     });
 
     // 全局计算数据
