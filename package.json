@@ -1,8 +1,9 @@
 {
     "name": "yibase",
     "version": "2.1.0",
-    "description": "vue3 + vite + yite-cli 基础项目开发模板",
+    "description": "vue3 + yite-cli 基础项目开发模板",
     "sideEffects": true,
+    "chensuyidd": 25,
     "type": "module",
     "private": false,
     "license": "Apache-2.0",
@@ -45,20 +46,20 @@
     },
     "homepage": "https://chensuiyi.me",
     "dependencies": {
-        "@iconify/json": "^2.2.248",
-        "axios": "^1.7.7",
-        "pinia": "^2.2.2",
-        "sass": "^1.78.0",
-        "store2": "^2.14.3",
-        "vue": "^3.5.5",
-        "vue-i18n": "^10.0.1",
-        "vue-router": "^4.4.5"
+        "@iconify/json": "^2.2.302",
+        "axios": "^1.7.9",
+        "pinia": "^2.3.1",
+        "sass": "^1.83.4",
+        "store2": "^2.14.4",
+        "vue": "^3.5.13",
+        "vue-i18n": "^11.1.0",
+        "vue-router": "^4.5.0",
+        "yite-cli": "^3.11.2"
     },
     "devDependencies": {
-        "lint-staged": "^15.2.10",
-        "prettier": "^3.3.3",
-        "simple-git-hooks": "^2.11.1",
-        "yite-cli": "^3.4.3"
+        "lint-staged": "^15.4.3",
+        "prettier": "^3.4.2",
+        "simple-git-hooks": "^2.11.1"
     },
     "simple-git-hooks": {
         "pre-commit": "pnpm exec lint-staged"

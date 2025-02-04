@@ -1,5 +1,6 @@
 export const yiteConfig = {
-    devtool: false,
+    devtool: true,
+    inspect: true,
     // 自动导入
     autoImport: {
         resolvers: [],
@@ -9,25 +10,6 @@ export const yiteConfig = {
     autoComponent: {
         resolvers: []
     },
-    // vite自定义 配置
-    // fnMap(待办1)111
-    // fnMap(待办1)111
-    // fnMap(待办1)111
-    // fnMap(待办1)111
-    // fnMap(待办1)111
-    // fnMap(待办1)111
-    // fnMap(待办1)111
-    // fnMap(待办1)111
-    // fnMap(待办1)111
-    // fnMap(待办1)111
-    // fnMap(待办1)111
-    // fnMap(待办1)111
-    // fnMap(待办1)111
-    // fnMap(待办1)111
-    // fnMap(待办1)111
-    // fnMap(待办1)111
-    // fnMap(待办1)111
-    // fnMap(待办1)111
     viteConfig: {
         optimizeDeps: {
             include: [
@@ -39,3 +21,8 @@ export const yiteConfig = {
         }
     }
 };
+
+//#region 外层
+//#region 内层
+//#endregion
+//#endregion
